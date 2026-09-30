@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login UI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0f19;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+        }
+        .login-card {
+            background: rgba(17, 24, 39, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 16px;
+            width: 320px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .login-card h2 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .login-card p {
+            text-align: center;
+            font-size: 12px;
+            color: #9ca3af;
+            margin-bottom: 25px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            font-size: 13px;
+            margin-bottom: 5px;
+            color: #d1d5db;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            color: white;
+            box-sizing: border-box;
+        }
+        .btn-signin {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            margin-top: 15px;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        <h2>Welcome back</h2>
+        <p>Sign in to access your dashboard</p>
+        
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" placeholder="Enter your username">
+        </div>
+        
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password">
+        </div>
+        
+        <button class="btn-signin">Sign in</button>
+        
+        <div class="footer-links">
+            <span>Forgot Password?</span>
+            <span>Register</span>
+        </div>
+    </div>
+
+</body>
+</html>
